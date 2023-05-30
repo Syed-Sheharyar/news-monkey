@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available On
 
-Actual running website was on [Netlify](https://sheharyar-news.netlify.app)
+Actual running website was on [Netlify](https://news-monkey.netlify.app)
 
 Open this site in [Code Sandbox](https://githubbox.com/sheharyar/news-monkey)
 
