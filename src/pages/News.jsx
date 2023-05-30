@@ -21,6 +21,7 @@ const News = ({ category, country }) => {
 			headers: {
 				"X-Api-Key": apikey,
 			},
+			mode: "no-cors"
 		}).catch((err) => setError(err));
 
 		let data = res && (await res.json());
