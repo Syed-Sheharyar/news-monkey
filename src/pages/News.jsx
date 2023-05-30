@@ -20,7 +20,6 @@ const News = ({ category, country }) => {
 		let res = await fetch(url, {
 			headers: {
 				"X-Api-Key": apikey,
-				"Access-Control-Allow-Origin": "*"
 			},
 		}).catch((err) => setError(err));
 
