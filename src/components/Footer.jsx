@@ -13,7 +13,7 @@ const Footer = () => {
 					<span>Back to top</span>
 					</a>
 					<br />
-					<Link to="">
+					<Link to="https://github.com/Syed-Sheharyar/news-monkey">
 						<span>See code on Github</span>
 					</Link>
 				</div>
