@@ -23,11 +23,11 @@ const News = ({ category, country }) => {
 			},
 		}).catch((err) => setError(err));
 
-		let data = res && (await res.json());
+		let data = res && (await res.json())
 		data?.message ? setError(data.message) : null;
 		data && setTotalPages(Math.ceil(data.totalResults / pagesize));
 		//* Filter out the same news articles
-		let parsedData = data?.articles.filter((data, i, self) => {
+		let parsedData = data?.articles && data.articles.filter((data, i, self) => {
 			return self.findIndex((news) => news.url === data.url);
 		});
 
