@@ -25,3 +25,7 @@ a {
 a:hover {
   color: darkred;
 }
+
+.search-icon:hover {
+  color: white
+}

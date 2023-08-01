@@ -1,7 +1,12 @@
-import React from "react";
+import React from "react"
 
 const Spinner = () => {
-	return <div className="spinner-border" role="status"></div>;
-};
+  return (
+    <div
+      className="spinner-border"
+      role="status"
+    ></div>
+  )
+}
 
-export default Spinner;
+export default Spinner
